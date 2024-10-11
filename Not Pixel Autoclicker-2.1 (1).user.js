@@ -206,8 +206,8 @@ const GAME_SETTINGS = {
   autoClaimMinDelay: 12000, // 2 минуты
   autoClaimMaxDelay: 60000, // 10 минут
   autoChangeColorEnabled: true, // По умолчанию автосмена цвета выключена
-  autoChangeColorMinDelay: 5000, // 12 сек
-  autoChangeColorMaxDelay: 7000 // 1 минута
+  autoChangeColorMinDelay: 3000, // 3 сек
+  autoChangeColorMaxDelay: 4000 // 4 сек
 };
 
 // Автозабор награды
