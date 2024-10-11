@@ -197,17 +197,17 @@ function startScript() {
 startScript();
 
 const GAME_SETTINGS = {
-  minDelay: 3000, // 1 секунда
-  maxDelay: 6000, // 2 секунды
+  minDelay: 5000, // 5 секунда
+  maxDelay: 7000, // 7 секунды
   minPauseDuration: 60000, // 1 минута
   maxPauseDuration: 180000, // 3 минуты
   pauseUntil: null, // По умолчанию пауза не установлена
   autoClaimEnabled: true, // По умолчанию автозабор награды выключен
-  autoClaimMinDelay: 120000, // 2 минуты
-  autoClaimMaxDelay: 600000, // 10 минут
+  autoClaimMinDelay: 12000, // 2 минуты
+  autoClaimMaxDelay: 60000, // 10 минут
   autoChangeColorEnabled: true, // По умолчанию автосмена цвета выключена
-  autoChangeColorMinDelay: 12000, // 12 сек
-  autoChangeColorMaxDelay: 60000 // 1 минута
+  autoChangeColorMinDelay: 5000, // 12 сек
+  autoChangeColorMaxDelay: 7000 // 1 минута
 };
 
 // Автозабор награды
